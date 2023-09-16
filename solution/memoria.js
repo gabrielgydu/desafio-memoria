@@ -42,6 +42,7 @@ function imprimirTabuleiro() {
 async function virarCarta() {
   rl.question('Digite as coordenadas para virar uma carta (ex., A1): ', async function(coord) {
     try {
+      // TODO
     } catch (error) {
       console.error(error.message);
       virarCarta();
